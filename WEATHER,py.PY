@@ -7,7 +7,7 @@ import tkinter.messagebox
  # importing tkinter message box for easy dialog box creation 
   
 base = Tk() 
-base.title("Group 6 Weather App") 
+base.title("Weather App") 
   
   
 def weather_response_format(weather): 
@@ -46,10 +46,8 @@ def close_app():
   
  # additional function for displaying credits in menu 
 def credits_func(): 
-     credits_func = tkinter.messagebox.showinfo(title="Credits", message='''Made with love by Group 6 CIT TIV 
- ***KASHISH
-  
- GPL V4 License 2021''') 
+     credits_func = tkinter.messagebox.showinfo(title="Credits", message='''Made with love
+ ***KASHISH''')
      return 
   
   
